@@ -35,10 +35,10 @@ The following packages were used in this analysis:
 
 ## Summary of Findings
 * The most popular source for users is Twitter for iPhone followed by Twitter Web Client and TweetDeck.
-* The greatest number of tweets created was in December 2015 with 366 new tweets. Since then the number of tweets have decreased and stayed relatively constant with occassional peaks seen in February-March and May-June of 2016 with an increase of 9 and 24 tweets respectively.
-* The most often assigned numerator is 12 with 447 dogs given a 12/10 rating.
+* The greatest number of tweets created was in December 2015 with 366 new tweets. Since then the number of tweets has decreased and stayed relatively constant with occassional peaks seen in February-March and May-June of 2016 with an increase of 9 and 24 tweets respectively.
+* The most frequently assigned numerator is 12 with 447 dogs given a 12/10 rating.
 * The algorithm predicted 1617 dog breeds and failed in 370 cases.
-* The 10 most frequent dog breeds are: Golden Retriever, Labrador Retriever, Pembroke, Chihuahua, Pug, Toy Poodle, Chow, Pomeranioan, Samoyed, and Malamute
+* The 10 most frequent dog breeds are: Golden Retriever, Labrador Retriever, Pembroke, Chihuahua, Pug, Toy Poodle, Chow, Pomeranian, Samoyed, and Malamute
 * The prediction confidence varies between the 10 most frequent dog breeds. The algorithm is more confident in predictions for breeds like the Samoyed, Pomeranian, and Pug. Less confident predictions near 50% can be seen with Chihuahuas, Toy Poodles, and Malamutes.
 * The 10 most frequent dog names are: Oliver, Cooper, Charlie, Lucy, Penny, Tucker, Sadie, Winston, Lola, and Daisy
 * Tweets that include a dog name are more likely to be favorited and less likely to be retweeted.
