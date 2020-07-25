@@ -3,12 +3,12 @@
 ## Using Twitter API to Wrangle and Analyze WeRateDogs Data
 The Twitter user [@dog_rates](https://twitter.com/dog_rates?lang=en), also known as WeRateDogs, is an account that rates dogs with humorous commentary. While the denominator for these ratings is 10, the scores are almost always greater with ratings like 11/10, 12/10, 13/10 etc. WeRateDogs has over 4 million followers and has received international media coverage.
 
-This project focuses on wrangling data from the WeRateDogs Twitter account using Python and its libraries. A thorough asessment of format, quality, and tidiness was performed prior to cleaning. Wrangling efforts and visualizations are provided in the notebook titled 'weratedogs_wrangle_act.ipynb.'
+This project focuses on wrangling data from the WeRateDogs Twitter account using Python and its libraries. A thorough assessment of format, quality, and tidiness was performed prior to cleaning. Wrangling efforts and visualizations are provided in the notebook titled 'weratedogs_wrangle_act.ipynb.'
 
 ## Datasets
 **Enhanced Twitter Archive**
 
->The [WeRateDogs](https://twitter.com/dog_rates?lang=en) Twitter archive contains basic tweet data for all 5000+ tweets. The archive contains each tweet's text, which was used to extract information like ratings, dog name, and "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive enhanced. Only tweets with ratings have been filtered for for this file leaving 2,356 tweets total for this analysis.
+>The [WeRateDogs](https://twitter.com/dog_rates?lang=en) Twitter archive contains basic tweet data for all 5000+ tweets. The archive contains each tweet's text, which was used to extract information like ratings, dog name, and "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive enhanced. Only tweets with ratings have been filtered for this file leaving 2,356 tweets total for this analysis. 
 
 **Twitter API**
 
@@ -16,7 +16,7 @@ This project focuses on wrangling data from the WeRateDogs Twitter account using
 
 **Image Predictions File**
 
->Every image in the WeRateDogs archive was ran through a neural network that can classify dog breeds. This file contains  image predictions fo reach tweet ID, an image URL, and numbers that correspond to the most confident prediction (ranging from 1 to 4 since tweets can have up to four images). The image predictions file can be found and downloaded [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv).
+>Every image in the WeRateDogs archive was ran through a neural network that can classify dog breeds. This file was provided by Udacity and contains image predictions for each tweet ID, an image URL, and numbers that correspond to the most confident prediction (ranging from 1 to 4 since tweets can have up to four images). The image predictions file can be found and downloaded [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv).
 
 ## Software
 The following packages were used in this analysis:
